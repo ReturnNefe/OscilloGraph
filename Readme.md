@@ -10,8 +10,8 @@ An OscilloGraph simulator, you can use it to play some special waveform files.
 
 1. Download and Install ``.Net 6 Runtime``
 
-2. Download Oscillofun File
-   
+2. Download `Oscillofun.zip`
+
    Copy ``wave.wav`` into the root directory.
 
 3. Run Program
