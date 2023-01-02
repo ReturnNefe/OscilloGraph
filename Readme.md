@@ -15,6 +15,7 @@ An OscilloGraph simulator, you can use it to play some special waveform files.
    Copy ``wave.wav`` into the root directory.
 
 3. Run Program
+
     ```./OscilloGraph wave.wav```
 
     It will launch an HttpServer and automatically open the browser to load the webpage.
