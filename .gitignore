@@ -1,5 +1,7 @@
-.vs
-.vscode
+/.vs
+/.vscode
+
+/wave.wav
 
 /*/bin
 /*/obj
