@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OscilloGraph.Test": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../../wave.wav"
+    }
+  }
+}

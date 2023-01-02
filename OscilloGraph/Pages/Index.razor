@@ -1,0 +1,13 @@
+﻿@page "/"
+@namespace OscilloGraph.Global
+@inherits IndexBase
+
+<PageTitle>Oscillo Graph</PageTitle>
+
+<!-- style="position: absolute; left:50%; top:50%; transform: translate(-50%, -50%);" -->
+
+<div style="width: @(AppInfo.Width)px; height: @(AppInfo.Height + 44)px; position: absolute; left:50%; top:50%; transform: translate(-50%, 40%);">
+    <BECanvas Width="@(AppInfo.Width)" Height="@(AppInfo.Height)" @ref="canvas"></BECanvas>
+    <br/>
+    <button @onclick="OnButtonClick" hidden=@(ButtonHidden) style="border-style: none; padding: 10px; border-radius: 5px; float: right; background-color:rgb(40, 40, 40); color:rgb(200, 200, 200);">Start</button>
+</div>
