@@ -16,17 +16,22 @@ An OscilloGraph simulator, you can use it to play some special waveform files.
 
 3. Run Program
 
-    ```./OscilloGraph wave.wav```
+    ```powershell
+    ./OscilloGraph wave.wav
+    ```
 
     It will launch an HttpServer and automatically open the browser to load the webpage.
 
     Click the "Start" button, and enjoy it!
 
 ## Usage
+
 ### Argument
+
 0: file    the Wave File to play (Required)
 
 ### Options
+
 |Option|Description|
 |--|--|
 | --fps <Int32>     | The default is equal to 25|
@@ -36,4 +41,4 @@ An OscilloGraph simulator, you can use it to play some special waveform files.
 | -h, --help        | Show help message|
 | --version         | Show version|
 
-Also See https://github.com/WangTingZheng/oscillofun
+Also See <https://github.com/WangTingZheng/oscillofun>
