@@ -10,7 +10,7 @@
     },
     
     "audio": {
-        "enabled": false,
+        "enabled": true,
         
         // Choose Audio Player
         // auto : automatically selected based on platform
