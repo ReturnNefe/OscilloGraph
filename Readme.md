@@ -41,4 +41,18 @@ An OscilloGraph simulator, you can use it to play some special waveform files.
 | -h, --help        | Show help message|
 | --version         | Show version|
 
+## About Audio
+
+___Version : v0.1.1 or higher___
+
+I use ``NAudio`` to play audio, but NAudio can't work on Linux OS or macOS.
+
+So I added a feature which allows users to choose how to play audio (``NAudio`` or ``FFMpeg``).
+
+The default selection mode is ``auto``:
+
+&emsp; If you use Windows OS, it will select ``NAudio``. Otherwise it will use ``FFMpeg``.
+
+***
+
 Also See <https://github.com/WangTingZheng/oscillofun>

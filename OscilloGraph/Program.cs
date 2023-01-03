@@ -16,7 +16,7 @@ namespace OscilloGraph
         static async Task Init()
         {
             using (StreamReader reader = new(Path.Combine(AppInfo.Path, "config.txt"), Encoding.UTF8))
-                AppInfo.Setting = JsonSerializer.Deserialize<Setting>(await reader.ReadToEndAsync(), AppInfo.JsonOptions);
+                AppInfo.Setting = JsonSerializer.Deserialize<Setting>(await reader.ReadToEndAsync(), AppInfo.JsonOptions) ?? new();
         }
         
         static async Task Main(string[] args)

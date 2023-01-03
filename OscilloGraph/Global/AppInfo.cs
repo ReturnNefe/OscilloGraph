@@ -5,7 +5,7 @@ namespace OscilloGraph.Global
     internal static class AppInfo
     {
         internal static string Path = AppDomain.CurrentDomain.BaseDirectory;
-        internal static Setting? Setting { get; set; }
+        internal static Setting Setting { get; set; } = null!;
         internal static JsonSerializerOptions JsonOptions = new JsonSerializerOptions
         {
             ReadCommentHandling = JsonCommentHandling.Skip,

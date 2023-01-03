@@ -7,5 +7,23 @@
     "pen": {
         "size": 3,
         "color": "30, 255, 30"
+    },
+    
+    "audio": {
+        "enabled": false,
+        
+        // Choose Audio Player
+        // auto : automatically selected based on platform
+        // naudio : WindowsOS only
+        // ffmpeg : Installation required
+        "player": "auto",
+        
+        "ffmpeg": {
+            "path": "ffplay",
+            
+            // Variable
+            // ${audioFile} : the file to play
+            "arguments": "-i \"${audioFile}\" -nodisp -loglevel quiet"
+        }
     }
 }
