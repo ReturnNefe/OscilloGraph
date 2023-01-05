@@ -36,7 +36,7 @@ An OscilloGraph simulator, you can use it to play some special waveform files.
 |--|--|
 | --fps <Int32>     | The default is equal to 25|
 | --url <String>    | The URL that the HTTP server should use|
-| --no-auto-open    | Whether to open a webpage after the program starts (default is enalbed)|
+| --no-auto-open    | Whether to open a webpage after the program started (default is enabled)|
 | --auto-render     | Whether to render after the webpage has loaded (default is disabled)|
 | -h, --help        | Show help message|
 | --version         | Show version|
